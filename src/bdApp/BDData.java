@@ -1,5 +1,7 @@
 package bdApp;
-
+/**
+ * Класс данных коннекта к базе
+ */
 class BDData {
 
     private String password;

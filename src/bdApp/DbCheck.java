@@ -1,5 +1,9 @@
 package bdApp;
 
+/**
+ * Проверка наличия драйвера для оракла и MySql
+ */
+
 class DbCheck {
 
     void oracleCheck(){

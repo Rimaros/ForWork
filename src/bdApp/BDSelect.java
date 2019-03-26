@@ -2,6 +2,10 @@ package bdApp;
 
 import java.sql.*;
 
+/**
+ * Селект для оракла и MySQL
+ */
+
 class BDSelect {
     String oracleSelect(String request) throws SQLException {
         System.out.println("-------- Oracle DB Select ------");

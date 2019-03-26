@@ -2,6 +2,10 @@ package bdApp;
 
 import java.sql.*;
 
+/**
+ * Апдейт для оракла и MySQL
+ */
+
 class BdUpdate {
 
     void oracleUpdate(String request) throws SQLException {
@@ -19,7 +23,7 @@ class BdUpdate {
             statement = connection.createStatement();
             statement.executeUpdate(request);
         } else System.out.println("Connection is NULL");
-        close(statement, connection);
+        close(statement, connection); // закрытие соединений
     }
 
     void mySQLUpdate(){
